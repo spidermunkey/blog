@@ -1,0 +1,10 @@
+Today I learned that using !! is a safer way to check if something exists then I'd been doing it.
+
+if(foo)
+  bar();
+
+can throw errors, in many confusing ways, and I use long winded solutions to fix it only after it blew up my thread.
+
+but if you first coerce the value to a boolean with ! then coerce it back to its boolean equivalent with another !
+the result will always be true of false
+bang bang ftw!
