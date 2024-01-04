@@ -6,5 +6,8 @@ if(foo)
 can throw errors, in many confusing ways, and I use long winded solutions to fix it only after it blew up my thread.
 
 but if you first coerce the value to a boolean with ! then coerce it back to its boolean equivalent with another !
-the result will always be true of false
+the result will always be true of false.
+
+I heard this before in a kyle simpson course on front end masters but his courses dive so deep and I was such a noob (still am but) that I was like ohhh I get it but I never really got it enough to use it in my projects.
+Saw jquery do it, ask chat gpt about it and BOOM it all makes sense.
 bang bang ftw!
